@@ -26,7 +26,6 @@ pipeline {
               '''
             }
         }
-        /*
         stage('Deploy to test namespace') {
           steps {
               dir ('labs/jenkins/project/helm') {
@@ -42,7 +41,6 @@ pipeline {
                 '''
               }
             }
-        }
-        */
+        } 
     }
 }
